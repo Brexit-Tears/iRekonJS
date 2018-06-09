@@ -6,6 +6,7 @@ global.tradeDeals = [];
 const obviously = require('./brexitSecretary');
 
 module.exports = {
+    eu: new Promise.reject(),
     that(actualValue) {
         return {
             isNoneOfTheirBusiness() {

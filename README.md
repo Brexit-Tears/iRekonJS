@@ -25,6 +25,9 @@ iRekon.that("BREXIT").shouldHaveHappened()
     .then(() => console.log('🎉')) // Always resolves... Probably
     .catch(() => console.log('Blame Corbyn'));
 
+iRekon.eu
+    .catch(() => console.log('Bloody Brussels bEUrocrats 🖕'));
+
 /* 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧
 All Tests Pass
 It's probably fine.
