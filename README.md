@@ -12,7 +12,9 @@ const costOfBrexit = sum("About 40 billion");
 
 iRekon.that(costOfBrexit).isNoneOfTheirBusiness(); // 🍻
 
-iRekon.that(costOfBrexit).ifYouAskMeIs("Worth It");
+iRekon.that(costOfBrexit).ifYouAskMeIs("Worth It"); // True
+
+iRekon.that("Brexit").means(); // Depends on the will of the people
 
 /* 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧
 All Tests Pass

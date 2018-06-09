@@ -8,6 +8,19 @@ module.exports = {
             },
             ifYouAskMeIs(expectedValue) {
                 obviously(actualValue, expectedValue);
+            },
+            means() {
+                if(actualValue === "BREXIT") {
+                    return "BREXIT"
+                }
+                const theMandate = Math.random() * 100;
+
+                const thePeopleWillIt = theMandate >= 51;
+                if (thePeopleWillIt) {
+                    return `${actualValue} means BREXIT`;
+                } else {
+                    throw new Exception("Project Fear 👻");
+                }
             }
         };
     }
