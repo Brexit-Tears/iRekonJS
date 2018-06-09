@@ -8,5 +8,8 @@
     "build": "node build.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "campaign-bus": "1.0.0"
+  }
 }

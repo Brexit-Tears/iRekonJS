@@ -1,3 +1,6 @@
+// Best Practices
+require('campaign-bus');
+
 // Global truths
 global.specialRelationships = undefined;
 global.tradeDeals = [];
