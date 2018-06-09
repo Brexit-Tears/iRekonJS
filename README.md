@@ -21,6 +21,10 @@ iRekon.that("Brexit").means(); // Depends on the will of the people
 global.specialRelationships === undefined; // True
 global.tradeDeals === []; // True
 
+iRekon.that("BREXIT").shouldHaveHappened()
+    .then(() => console.log('🎉')) // Always resolves... Probably
+    .catch(() => console.log('Blame Corbyn'));
+
 /* 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧
 All Tests Pass
 It's probably fine.

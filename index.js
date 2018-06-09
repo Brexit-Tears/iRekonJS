@@ -26,6 +26,15 @@ module.exports = {
                 } else {
                     throw new Exception("Project Fear 👻");
                 }
+            },
+            shouldHaveHappened() {
+                const ukJoinedEEC = new Date("Jan 1973");
+                const timeUntilIdealBrexit = Date.now() - ukJoinedEEC;
+                return new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        resolve("GODSAVETHEQUEEN");
+                    }, timeUntilIdealBrexit);
+                });
             }
         };
     }
