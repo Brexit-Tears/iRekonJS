@@ -36,3 +36,23 @@ It's probably fine.
 -- God Save The Queen
 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 */
 ```
+
+
+## Contributing
+PRs will only be accepted from Blue British Passport holders who believe in the re-instituting the empire.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Britain never trembles.
+God save the Queen.
