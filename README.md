@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Brexit-Tears/iRekonJS.svg?branch=master)](https://travis-ci.org/Brexit-Tears/iRekonJS)
+
 
 TODO: Consider repercussions later
 
@@ -15,6 +17,9 @@ iRekon.that(costOfBrexit).isNoneOfTheirBusiness(); // 🍻
 iRekon.that(costOfBrexit).ifYouAskMeIs("Worth It"); // True
 
 iRekon.that("Brexit").means(); // Depends on the will of the people
+
+global.specialRelationships === undefined; // True
+global.tradeDeals === []; // True
 
 /* 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧 🇬🇧
 All Tests Pass

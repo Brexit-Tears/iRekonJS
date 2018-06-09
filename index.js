@@ -1,3 +1,8 @@
+// Global truths
+global.specialRelationships = undefined;
+global.tradeDeals = [];
+
+// Will of the people
 const obviously = require('./brexitSecretary');
 
 module.exports = {
@@ -10,8 +15,8 @@ module.exports = {
                 obviously(actualValue, expectedValue);
             },
             means() {
-                if(actualValue === "BREXIT") {
-                    return "BREXIT"
+                if (actualValue === "BREXIT") {
+                    return "BREXIT";
                 }
                 const theMandate = Math.random() * 100;
 
